@@ -1,0 +1,45 @@
+# Function Structure Doc
+
+- Config
+- SQLiteConnection
+  1. connect
+- SQLiteCreateTable
+  1. createTables
+     - wargaC
+     - petikanC
+     - riwayat
+     - aset
+     - regulator
+  2. getTablesList
+- SQLiteTabulation
+  1. insertWarga
+  2. updateWarga
+  3. deleteWarga
+  4. insertPetikan
+  5. updatePetikan
+  6. deletePetikan
+  7. insertRiwayat
+  8. deleteRiwayat
+  9. insertAset
+  10. deleteAset
+  11. updateAset
+  12. insertRegulator
+  13. updateRegulator
+- SQLiteQuerySelect
+  1. getWargaList
+  2. getPetikanList
+  3. getAsetList
+  4. getAsetCount
+  5. getAsetCountTotal
+  6. getAsetSum
+  7. getAsetSumTotal
+  8. getRiwayatByWarga
+  9. getRiwayatByAset
+  10. getAsetByKategori
+  11. getAsetByWarga
+  12. getWargaById
+  13. getPetikanById
+  14. getPetikanByWargaId
+  15. getWargaSearchByid
+  16. getWargaSearchByname
+  17. getAsetSearchBypersil
